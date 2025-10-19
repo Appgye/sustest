@@ -3,31 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>电子校园卡</title> <!-- 网页名称修改为“电子校园卡” -->
+    <title>电子校园卡</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
         }
-        .card-wrapper {
-            width: 100%;
-            padding: 15px;
-            box-sizing: border-box;
-        }
         .campus-card {
-            width: 100%;
-            height: auto;
-            border-radius: 8px; /* 轻微圆角，提升视觉效果 */
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 增加轻微阴影 */
-            display: block;
-            margin: 0 auto;
+            width: 100%; /* 图片宽度与设备宽度一致 */
+            height: auto; /* 高度自动按比例缩放 */
+            display: block; /* 确保图片为块级元素，避免底部留白 */
         }
     </style>
 </head>
 <body>
-    <div class="card-wrapper">
-        <img src="student_card.png" alt="电子校园卡图片" class="campus-card">
-    </div>
+    <!-- 直接显示图片，宽度与设备一致 -->
+    <img src="student_card.png" alt="电子校园卡图片" class="campus-card">
 </body>
 </html>
